@@ -37,7 +37,6 @@
     font-size: 15px;
     color: aliceblue;
     font-weight: 700;
-    margin-top: 20px;
 
 }
 .btn-seccondery{
@@ -112,10 +111,11 @@ nav{
 }
 .nav-ul{
     display: flex;
+    flex-direction: row;
+
     align-items: center;
     gap: 20px;
-    
-    text-decoration: none;
+
 }
 .nav-ul li{
     list-style: none;
@@ -208,6 +208,10 @@ hr{
 .resume-card-parent{
     margin: 20px 0 20px 0;
 }
+.my-h4{
+    margin-left: 0;
+
+}
 /* Footer Styles */
 .footer-container{
     background-color: #fff8f3;
@@ -239,4 +243,7 @@ hr{
 .foot-icon img{
     width: auto;
     height: auto;
+}
+.footer-right button{
+    margin-top: 20px;
 }
